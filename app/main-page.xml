@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Button text="Dark Theme" tap="{{ darkTheme }}" />
+    <Button text="Light Theme" tap="{{ lightTheme }}" />
+  </StackLayout>
+</Page>
